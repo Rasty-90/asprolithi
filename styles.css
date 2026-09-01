@@ -1,8 +1,8 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: left;
-    align-items: center;
     background-color: #e1dfe6;
 }
 
@@ -12,6 +12,16 @@ h1{
     font-style: normal;
     font-size: 140px;
     color: white;
+    margin: 0 0 0 0;
+}
+
+h3{
+    font-family: "Caveat", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 140px;
+    color: white;
+    margin: 0 0 0 0;
 }
 
 .p2{
@@ -20,6 +30,7 @@ h1{
     font-style: normal;
     font-size: 50px;
     color: #525760;
+    margin: 0 0 0 0;
 }
 
 p{
@@ -42,4 +53,13 @@ img {
     display: flex;
     flex-direction: column;
     padding-left: 15%;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40%;
+    position: fixed;
+    bottom: 00px;
+
 }
